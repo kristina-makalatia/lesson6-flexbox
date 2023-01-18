@@ -1,0 +1,80 @@
+.container-wraper {
+	width: 1171px;
+	margin: 0 auto;
+	background: lightblue;
+}
+.block {
+	width: 371px;
+	height: 374px;
+	background: yellow;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.block-top {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+/*.active {
+	margin-bottom: 25px;
+}*/
+.blue-box {
+	width: 88px;
+	height: 88px;
+	background: #325DFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.description {
+	width: 251px;
+	background: lightblue;
+	text-align: center;
+}
+.active-margin {
+	margin-top: 25px;
+}
+.text-block {
+	width: 771px;
+	margin: 0 auto;
+	background: pink;
+	text-align: center;
+	margin-bottom: 64px;
+}
+
+/*pseudo classes*/
+.block:first-child {
+	background: red;
+	margin-bottom: 25px;
+}
+.block:nth-child(2) {
+	background: green;
+	margin-bottom: 25px;
+}
+.block:nth-child(3) {
+	background: blue;
+	margin-bottom: 25px;
+}
+.block:nth-child(4) {
+	background: violet;
+}
+.block:nth-child(5) {
+	background: olive;
+}
+.block:last-child{
+	background: darkkhaki;
+}
+
+/*.block:nth-child(even) {
+	background: green;
+}
+.block:nth-child(odd) {
+	background: red;
+}*/
+
+.block:nth-child(2) .block-title {
+	color: #fff;
+}
